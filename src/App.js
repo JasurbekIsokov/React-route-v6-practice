@@ -1,5 +1,6 @@
 import React from "react";
-
+import About from "./Components.js/About";
+import Card from "./Components.js/Card";
 import Cards from "./Components.js/Cards";
 import Header from "./Components.js/Header";
 
@@ -9,7 +10,9 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Cards />
+      {/* <Cards /> */}
+      {/* <Card /> */}
+      <About />
     </div>
   );
 };
