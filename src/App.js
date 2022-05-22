@@ -5,9 +5,10 @@ import Home from "./Components.js/Home";
 import About from "./Components.js/About";
 import Contact from "./Components.js/Contact";
 import Cards from "./Components.js/Cards";
-import Header from "./Components.js/Header";
+import Errorr from "./Components.js/Error";
 
 import "./Style.css";
+import Card from "./Components.js/Card";
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/cards" element={<Cards />} />
+        <Route path="*" element={<Errorr />} />
+        <Route path="/card" element={<Card />} />
       </Routes>
     </Router>
   );

@@ -59,7 +59,7 @@
 
 .card {
   width: 90%;
-  height: 300px;
+  height: 350px;
   border: 1px solid black;
   text-align: center;
   padding: 10px;
@@ -71,6 +71,12 @@
   background-color: cornflowerblue;
   font-size: 18px;
   margin-bottom: 20px;
+}
+
+.card_title {
+  padding: 5px 10px;
+  border: 1px solid cornflowerblue;
+  cursor: pointer;
 }
 
 /* /Cards */
@@ -95,3 +101,7 @@ h1 {
   box-shadow: 0 4px 8px coral;
 }
 /* /Pages */
+
+.error {
+  color: red;
+}
