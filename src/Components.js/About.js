@@ -1,10 +1,15 @@
+import Header from "./Header";
+
 const About = () => {
   return (
-    <div className="container">
-      <div className="page">
-        <h1>About</h1>
+    <>
+      <Header />
+      <div className="container">
+        <div className="page">
+          <h1>About</h1>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

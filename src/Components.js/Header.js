@@ -1,15 +1,31 @@
 import React from "react";
-// import { BrowserRouter, Link } from "react-router-dom";
+import { BrowserRouter, Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="header">
       <nav className="navbar">
         <ul className="un_list">
-          <li className="link">Home</li>
-          <li className="link">About</li>
-          <li className="link">Cards</li>
-          <li className="link">Contact</li>
+          <li className="link">
+            <Link style={{ textDecoration: "none" }} to={"/"}>
+              Home
+            </Link>
+          </li>
+          <li className="link">
+            <Link style={{ textDecoration: "none" }} to={"/about"}>
+              About
+            </Link>
+          </li>
+          <li className="link">
+            <Link style={{ textDecoration: "none" }} to={"/cards"}>
+              Cards
+            </Link>
+          </li>
+          <li className="link">
+            <Link style={{ textDecoration: "none" }} to={"/Contact"}>
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

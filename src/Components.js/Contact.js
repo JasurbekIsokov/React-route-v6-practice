@@ -1,10 +1,15 @@
+import Header from "./Header";
+
 const Contact = () => {
   return (
-    <div className="container">
-      <div className="page">
-        <h1>Contact</h1>
+    <>
+      <Header />
+      <div className="container">
+        <div className="page">
+          <h1>Contact</h1>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
